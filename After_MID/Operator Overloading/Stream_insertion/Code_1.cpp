@@ -19,9 +19,9 @@ class Insert
 		input >> num.x;
 		return input;
 	}		
-	ostream& operator << (ostream& output , Insert& num)
+	ostream& operator << (ostream& output , Insert& num1)
 	{
-		output << num.x;
+		output << num1.x;
 		return output;
 	}
 int main()

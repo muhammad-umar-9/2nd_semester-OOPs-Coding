@@ -24,7 +24,7 @@ class User
 };
 int main()
 {
-	User u1;
+	User u1(4 , 5);
 	u1.display();
 	++u1;
 	u1.display();

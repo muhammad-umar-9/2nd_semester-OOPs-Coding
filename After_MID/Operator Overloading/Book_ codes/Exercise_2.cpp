@@ -11,7 +11,7 @@ class User
 		x = a;
 		y = b;
 	}	
-	User operator + (const User &rhs)
+	User operator + (const User & rhs)
 	{
 		User u;
 		u.x = x + rhs.x;

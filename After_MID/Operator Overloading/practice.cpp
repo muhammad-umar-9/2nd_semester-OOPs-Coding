@@ -34,12 +34,12 @@ class Minus
 int main()
 {
 	Minus m1(8 , 4) , m2(5 , 6);
-	Minus m3 = m1 - m2;
+	// Minus m3 = m1 - m2;
 	Minus m4 = m1 + m2;
-	Minus m5 = m4 - m3;
+	// Minus m5 = m4 - m3;
 	
-	m3.display();
+	// m3.display();
 	m4.display();
-	m5.display();
+	// m5.display();
 	return 0;
 }
