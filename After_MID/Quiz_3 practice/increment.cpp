@@ -18,6 +18,7 @@ class User
 		++y;
             return temp;
 	} 
+	
 	void display()
 	{
 		cout<<"Your value is "<< x <<endl;
@@ -27,9 +28,9 @@ class User
 int main()
 {
       system("cls");
-	User u1(4 , 5);
+	User u1(0 , 0);
 	u1.display();
-	++u1;
+	u1++;
 	u1.display();
 	return 0;
 }
