@@ -41,7 +41,6 @@ class Array
 			if(arr[i] != a.arr[i])
 			return false;
 		}
-		
 		return true;
 	}
 		
