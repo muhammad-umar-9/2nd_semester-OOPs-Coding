@@ -5,11 +5,11 @@ using namespace std;
 first_and_last_occurence(string w, char x , int *first , int *last)
 {
 	//for first occurence
-	
 	for(int i=0; i<w.size(); i++)
 	{
 		if(w[i]==x) //as our first matches with our character
-		{*first=i;  //assigned this to our pointer bucket
+	    {
+		*first=i;  //assigned this to our pointer bucket
 		break;
 	    }
 	}

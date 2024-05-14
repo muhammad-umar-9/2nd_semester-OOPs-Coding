@@ -10,7 +10,7 @@ int main()
 	//As X is an integer variable , so we need a pointer
 	//that can store adress of integer type
 	
-	int * ptr=&x;
+	int * ptr = &x;
 	cout<<"Adress stored inside pointer: "<<ptr<<endl;
 	cout<<"Value present at the adress store in pointer: "<<*ptr<<endl<<"\n";
 	
@@ -26,7 +26,7 @@ int main()
 	
 	x=20;
 	//the bucket x updated the value from 10 to 20
-	//but pinter is still pointing the same bucket
+	//but pointer is still pointing the same bucket
 	//Now if we dereference ptr , we will get 23
 	
 	cout<<"New updated value of x: "<< x <<endl;

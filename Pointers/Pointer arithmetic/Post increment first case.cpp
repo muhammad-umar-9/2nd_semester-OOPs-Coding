@@ -9,7 +9,6 @@ int main()
 	int *ptr= &arr[0];
 	
 	cout<<ptr<<"  "<<*ptr<<endl<<"\n";
-	
 	cout<<*ptr++<<endl<<"\n";  //first it return old value and then it will increment adress not value
 	
 	cout<<arr[0]<<" "<<arr[1]<<endl<<"\n";
